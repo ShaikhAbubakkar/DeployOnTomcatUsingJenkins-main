@@ -2,9 +2,10 @@ pipeline {
     agent any
     
     tools {
-        jdk 'JAVA_HOME'
-        maven 'MAVEN_HOME'
-    }
+    jdk 'JDK 21'
+    maven 'Maven 3.x'
+}
+
     
     environment {
         // Define environment variables for Tomcat
